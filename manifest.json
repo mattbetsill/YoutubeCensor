@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "YoutubeViewer",
+    "version": "0.1",
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ],
+    "icons": {
+        "128": "YTIcon.png"
+    },
+    "description": "block unnecessary information on youtube",
+    "browser_action": {
+        "default_icon": "YTIcon.png",
+        "default_popup": "popup.html"
+    }
+}
